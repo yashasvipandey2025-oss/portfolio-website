@@ -913,3 +913,72 @@ section h2 {
 .project-card a:last-of-type:hover {
   background: #0056d2;
 }
+.projects-section {
+  background: #0a0a14;
+  padding: 60px 40px;
+}
+.projects-title {
+  color: #fff;
+  font-size: 32px;
+  letter-spacing: 3px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+.projects-title::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #22d3ee;
+  margin-top: 10px;
+}
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 24px;
+  margin-top: 30px;
+}
+.project-card {
+  background: #11132080;
+  border: 1px solid #2a2d45;
+  border-radius: 12px;
+  padding: 24px;
+}
+.project-card h3 {
+  color: #5fb8f0;
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+.project-card p {
+  color: #d6d6e0;
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 16px;
+}
+.tags {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+.tags span {
+  background: #16243a;
+  color: #7fc1ec;
+  font-size: 13px;
+  padding: 6px 14px;
+  border-radius: 20px;
+}
+.buttons {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.btn {
+  background: #3aa9f5;
+  color: #04253f;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 10px 18px;
+  border-radius: 8px;
+  text-decoration: none;
+}
